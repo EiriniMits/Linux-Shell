@@ -85,8 +85,9 @@ int main (int argc, char ** argv)
                 }
                 else if(ret==0){
                 if (getcwd(pathname,sizeof(pathname)) == NULL )
-                { printf("Error getting path\n");
-								exit(0);
+                { 
+			printf("Error getting path\n");
+			exit(0);
                 }
                 strcpy(prompt, "MYSHELL:");
                 strcat(prompt,pathname);
@@ -296,4 +297,3 @@ int main (int argc, char ** argv)
     }
     return 0;
 }
-
