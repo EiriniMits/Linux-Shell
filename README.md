@@ -1,5 +1,7 @@
 # Linux-Shell
 
+This project was created for academic purposes on the subject of 'Operating Systems' at the Aristotle University of Thessaloniki.
+
 A simple Linux shell written in C
 
 ## Features
